@@ -3,13 +3,3 @@ let myMessages =['Salut l\'ami(e)', 'Tu vas bien?', 'Je suis un admirateur des s
 let someHobbies = ['je fais du sport', 'Je lis tout type de livre ouvert au monde réel', 'je suis un grand reveur']
 let otherTricks = ['Les voyages à travers le monde, me tentent','Je suis un citoyen du monde', 'En vrai','je suis consmopolite']
 
-function get_random(){
-    const generateRandom1 = Math.floor(Math.random() * myMessages.length);
-    const generateRandom2 =  Math.floor(Math.random() * someHobbies.length);
-    const generateRandom3 =  Math.floor(Math.random() * otherTricks.length); 
-    const out = (`${myMessages[generateRandom1]}, ${someHobbies[generateRandom2]}, ${otherTricks[generateRandom3]}`)
-   
-    return out;
-}
-
-console.log(get_random());
